@@ -6,40 +6,41 @@
   <title>Book List</title>
   <link rel="stylesheet" href="common.css">
   <link rel="stylesheet" href="bookList.css">
+  <link rel="stylesheet" href="update.css">
 </head>
 <body>
-  <!-- Need Work Later ✨👀 -->
-  <div class="topnav">
-    <a id="home" class="active" href="index.html">Home</a>
-    <a id="login-link" href="login.html">User Login</a>
-    <a id="book-entry-link" href="bookEntry.html">Book Information Entry</a>
-    <a id="book-list-link" href="bookList.html">Book List</a>
-    <a id="logout-link" href="logout.html">Logout</a>
-  </div> 
+<div class="topnav">
+  <a id="home" class="active" href="index.html">Home</a>
+  <a id="login-link" href="login.html">User Login</a>
+  <a id="book-entry-link" href="bookEntry.html">Book Information Entry</a>
+  <a id="book-list-link" href="bookList.html">Book List</a>
+  <a id="logout-link" href="logout.html">Logout</a>
+</div> 
 
-  <div class="container">
-    <h1>Book List</h1>
-    <input type="text" id="searchInput" placeholder="Search...">
-    <table id="bookTable">
-      <thead>
-        <tr>
-          <th>Book Title</th>
-          <th>Author Name</th>
-          <th>Genre</th>
-          <th>Publication Year</th>
-          <th>Book Pages</th>
-          <th>Reading Status</th>
-          <th>Rating</th>
-          <th>Actions</th>
-        </tr>
-      </thead>
-      <tbody>
-        <!-- Book data will be dynamically populated here -->
-      </tbody>
-    </table>
-  </div>
+<div class="container">
+  <h1>Book List</h1>
+  <input type="text" id="searchInput" placeholder="Search...">
+  <table id="bookTable">
+    <thead>
+      <tr>
+        <th>Book Title</th>
+        <th>Author Name</th>
+        <th>Genre</th>
+        <th>Publication Year</th>
+        <th>Book Pages</th>
+        <th>Reading Status</th>
+        <th>Rating</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody id="bookTableBody">
+      <!-- Book data will be dynamically populated here -->
+    </tbody>
+  </table>
+</div>
 
-  <script src="bookList.js"></script>
-
+<script src="auth.js"></script>
+<script src="bookList.js"></script>
+<script src="update.js"></script>
 </body>
 </html>

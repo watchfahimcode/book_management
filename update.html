@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Update Book</title>
+  <link rel="stylesheet" href="common.css">
+  <link rel="stylesheet" href="update.css">
+</head>
+<body>
+<div class="update-container">
+  <h1>Update Book</h1>
+  <form id="updateForm" class="update-form">
+    <div class="form-group">
+      <label for="updateTitle">Book Title</label>
+      <input type="text" id="updateTitle" required>
+    </div>
+    <div class="form-group">
+      <label for="updateAuthor">Author Name</label>
+      <input type="text" id="updateAuthor" required>
+    </div>
+    <div class="form-group">
+      <label for="updateGenre">Genre</label>
+      <input type="text" id="updateGenre" required>
+    </div>
+    <div class="form-group">
+      <label for="updateYear">Publication Year</label>
+      <input type="number" id="updateYear" required>
+    </div>
+    <div class="form-group">
+      <label for="updatePages">Book Pages</label>
+      <input type="number" id="updatePages" required>
+    </div>
+    <div class="form-group">
+      <label for="updateStatus">Reading Status</label>
+      <select id="updateStatus" required>
+        <option value="reading">Reading</option>
+        <option value="finished">Finished</option>
+        <option value="want-to-read">Want to Read</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="updateRating">Rating</label>
+      <select id="updateRating" required>
+        <option value="Very Good">Very Good</option>
+        <option value="Good">Good</option>
+        <option value="Average">Average</option>
+        <option value="Bad">Bad</option>
+        <option value="Very Bad">Very Bad</option>
+        <option value="Unfinished">Unfinished</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <button type="submit">Update</button>
+      <button type="button" class="btn-cancel">Cancel</button>
+    </div>
+  </form>
+</div>
+
+<script src="auth.js"></script>
+<script src="update.js"></script>
+</body>
+</html>

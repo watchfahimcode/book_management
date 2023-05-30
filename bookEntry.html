@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="bookEntry.css">
 </head>
 <body>
-<!-- Need Work Later ✨👀 -->
 <div class="topnav">
   <a id="home" class="active" href="index.html">Home</a>
   <a id="login-link" href="login.html">User Login</a>
@@ -17,32 +16,32 @@
   <a id="logout-link" href="logout.html">Logout</a>
 </div> 
 
-  <div class="container">
-    <h1>Book Information Entry</h1>
-    <form id="bookEntryForm">
-      <input type="text" id="bookTitle" placeholder="Book Title" required>
-      <input type="text" id="authorName" placeholder="Author Name" required>
-      <input type="text" id="genre" placeholder="Genre" required>
-      <input type="text" id="publicationYear" placeholder="Publication Year" required>
-      <input type="number" id="bookPages" placeholder="Book Pages" required>
-      <div class="radio-group">
-        <label><input type="radio" name="readingStatus" value="reading"> Reading</label>
-        <label><input type="radio" name="readingStatus" value="finished"> Finished</label>
-        <label><input type="radio" name="readingStatus" value="want-to-read"> Want to Read</label>
-      </div>
-      <select id="rating">
-        <option value="Very Good">Very Good</option>
-        <option value="Good">Good</option>
-        <option value="Average">Average</option>
-        <option value="Bad">Bad</option>
-        <option value="Very Bad">Very Bad</option>
-        <option value="Unfinished">Unfinished</option>
-      </select>
-      <button type="submit">Save</button>
-    </form>
-  </div>
+<div class="container">
+  <h1>Book Information Entry</h1>
+  <form id="bookEntryForm">
+    <input type="text" id="bookTitle" placeholder="Book Title" required>
+    <input type="text" id="authorName" placeholder="Author Name" required>
+    <input type="text" id="genre" placeholder="Genre" required>
+    <input type="text" id="publicationYear" placeholder="Publication Year" required>
+    <input type="number" id="bookPages" placeholder="Book Pages" required>
+    <div class="radio-group">
+      <label><input type="radio" name="readingStatus" value="reading"> Reading</label>
+      <label><input type="radio" name="readingStatus" value="finished"> Finished</label>
+      <label><input type="radio" name="readingStatus" value="want-to-read"> Want to Read</label>
+    </div>
+    <select id="rating">
+      <option value="Very Good">Very Good</option>
+      <option value="Good">Good</option>
+      <option value="Average">Average</option>
+      <option value="Bad">Bad</option>
+      <option value="Very Bad">Very Bad</option>
+      <option value="Unfinished">Unfinished</option>
+    </select>
+    <button type="submit">Save</button>
+  </form>
+</div>
 
-  <script src="bookEntry.js"></script>
-  
+<script src="auth.js"></script>
+<script src="bookEntry.js"></script>
 </body>
 </html>

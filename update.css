@@ -1,0 +1,62 @@
+/* update.css */
+
+.update-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .update-form {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .update-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .form-group button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-cancel {
+    background-color: #bbb;
+    margin-left: 10px;
+  }
+  
+  .btn-cancel:hover {
+    background-color: #999;
+  }
+  
+  /* Media Query for smaller screens */
+  @media screen and (max-width: 480px) {
+    .update-container {
+      padding: 10px;
+    }
+  }
+  
