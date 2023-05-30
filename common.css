@@ -1,30 +1,38 @@
-nav {
-    background-color: #f2f2f2;
-  }
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
   
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
   }
-  
-  nav ul li {
-    padding: 10px;
-  }
-  
-  nav ul li a {
+
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
+    font-size: 17px;
   }
-  
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
   .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #f2f2f2;
+    background-color: #d9f3f3;
     border-radius: 5px;
-  }
+  } */
   
   h1 {
     text-align: center;
@@ -69,5 +77,3 @@ nav {
   table td.actions button {
     margin-right: 5px;
   }
-  
-  
