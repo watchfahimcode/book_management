@@ -15,6 +15,9 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
   });
 
   if (matchedUser) {
+    // Store user information in local storage
+    localStorage.setItem("loggedInUser", JSON.stringify(matchedUser));
+
     alert("Login successful!");
     // Redirect to book entry page
     window.location.href = "bookEntry.html";
